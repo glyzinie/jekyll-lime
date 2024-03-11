@@ -1,0 +1,11 @@
+encoding: utf-8
+lang: ja
+timezone: Asia/Tokyo
+
+plugins: ["jekyll-remote-theme"]
+remote_theme: glyzinie/jekyll-lime
+
+baseURL: https://glyzinie.github.io/jekyll-lime/
+title: Jekyll Lime
+description: A simple Jekyll theme using new.css
+copyright: 2024 Wis (@glyzinie)

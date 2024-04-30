@@ -11,7 +11,8 @@ layout: null
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.3/new.min.css">
+	<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
 	<style>
 .container {
 	position: relative;
@@ -40,7 +41,7 @@ footer {
 }
 	</style>
 
-	{% include custom-head.html %}
+	{% include head.html %}
 </head>
 <body>
 	{% include header.html %}
